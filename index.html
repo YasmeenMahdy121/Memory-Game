@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
+
+    <title>Memory Game</title>
+
+</head>
+
+<body>
+    <!-- Heading -->
+    <header>
+        <h1>Memory Game</h1>
+    </header>
+    <!-- end heading -->
+    <!-- game info -->
+    <section class="game-info">
+        <ul class="stars">
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <span class="tries"><span class="num">0</span> Move(s) </span>
+        <span class="timer">0 min(s) &ThinSpace; 0 sec(s) </span>
+        <i class="fas fa-redo-alt"></i>
+    </section>
+    <!-- end game info -->
+    <!-- game cards container -->
+    <ul class="game-container">
+        <li class="card" data-icon='anchor'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-anchor"></i></div>
+        </li>
+        <li class="card" data-icon='anchor'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-anchor"></i></i></div>
+        </li>
+        <li class="card" data-icon='leaf'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-leaf"></i></div>
+        </li>
+        <li class="card" data-icon='leaf'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-leaf"></i></div>
+        </li>
+        <li class="card" data-icon='gem'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="far fa-gem"></i></div>
+        </li>
+        <li class="card" data-icon='gem'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="far fa-gem"></i></div>
+        </li>
+        <li class="card" data-icon='bomb'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bomb"></i></div>
+        </li>
+        <li class="card" data-icon='bomb'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bomb"></i></div>
+        </li>
+        <li class="card" data-icon='bolt'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bolt"></i></div>
+        </li>
+        <li class="card" data-icon='bolt'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bolt"></i></div>
+        </li>
+        <li class="card" data-icon='cube'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-cube"></i></div>
+        </li>
+        <li class="card" data-icon='cube'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-cube"></i></div>
+        </li>
+        <li class="card" data-icon='paper-plane'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="far fa-paper-plane"></i></div>
+        </li>
+        <li class="card" data-icon='paper-plane'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="far fa-paper-plane"></i></div>
+        </li>
+        <li class="card" data-icon='bicycle'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bicycle"></i></div>
+        </li>
+        <li class="card" data-icon='bicycle'>
+            <div class="card-front"></div>
+            <div class="card-back"><i class="fa fa-bicycle"></i></div>
+        </li>
+    </ul>
+    <!-- end game cards container -->
+    <!-- congratulations message -->
+    <section class="congrats-message">
+        <div class="congrats-container">
+            <div class="header">
+                <h2>Congratulations 🎉</h2>
+                <span class="close">X</span>
+            </div>
+            <div class="congrats-content">
+                <ul>
+                    <li>Congratulations you're a winner 🎉🎉</li>
+                    <li class="total-moves">You made 22 moves</li>
+                    <li class="total-time">in 6mins 32secs</li>
+                    <li class="rating">
+                        <span>Rating: </span>
+                        <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="play-again">Play again 😄</button>
+            </div>
+        </div>
+    </section>
+    <!-- end congratulations message -->
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
